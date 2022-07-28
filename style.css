@@ -1,3 +1,7 @@
+.brightness{
+    filter: brightness(60%);
+}
+
 .theme-bg{
     background: #F4FAFD !important;
 }
@@ -7,4 +11,10 @@
 }
 .icon-color-2{
     color:rgb(214, 214, 162);
+}
+
+@media only screen and (min-width: 768px){
+    .accordian-mine{
+        width: 75% !important;
+    }
 }
